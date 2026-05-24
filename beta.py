@@ -35,7 +35,7 @@ if "destino" not in st.session_state:
     st.session_state.destino = ""
 
 # --- Título ---
-st.title("✈️ Simulador de Vuelos - Matrices Booleanas")
+st.title("✈️ Simulador de Vuelos ")
 st.markdown("Encuentra rutas entre ciudades del Perú usando matrices de adyacencia.")
 
 # --- Sidebar ---
