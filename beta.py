@@ -36,11 +36,11 @@ if "destino" not in st.session_state:
 
 # --- Título ---
 st.title("✈️ Simulador de Vuelos ")
-st.markdown("Encuentra rutas entre ciudades del Perú usando matrices de adyacencia.")
+st.markdown("Encuentra rutas entre ciudades del Perú .")
 
 # --- Sidebar ---
 st.sidebar.header("Selecciona tu vuelo")
-origen = st.sidebar.selectbox("Ciudad de origen", ciudades_lista, index=0)
+origen = st.sidebar.selectbox("Ciudad de origen o mas cercana", ciudades_lista, index=0)
 destino = st.sidebar.selectbox("Ciudad de destino", ciudades_lista, index=1)
 color_nombre = st.sidebar.radio("Color de la ruta", ["Azul", "Rojo", "Verde"])
 buscar = st.sidebar.button("Buscar rutas")
